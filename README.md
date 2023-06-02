@@ -4,6 +4,10 @@ This is a directory to help you build a Docker image for
 
 # Build and run the image
 
+Clone the repository
+
+    git clone https://github.com/nlegrand/build_foundry_vtt_image.git
+
 You should download the FoundryVTT and put it in a `files` directory
 naned `foundryvtt.zip`.
 
