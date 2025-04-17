@@ -1,6 +1,8 @@
 # syntax=docker/dockerfile:1
-FROM node:16-bullseye
+FROM node:20-alpine
 
+RUN apk update
+RUN apk upgrade
 USER node
 RUN mkdir -p /home/node/data
 RUN mkdir -p /home/node/app
